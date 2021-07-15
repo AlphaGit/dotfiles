@@ -13,3 +13,6 @@ alias kdev='kubectl -n dev'
 alias kprod='kubectl -n prod'
 alias ktest='kubectl -n test'
 alias kcommon='kubectl -n common'
+
+# https://unix.stackexchange.com/a/25329/305924
+alias watch='watch '

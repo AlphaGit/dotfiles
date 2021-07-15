@@ -132,3 +132,9 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 # Kubectl: Use VSCode as editor
 export KUBE_EDITOR='code --wait'
+
+# load all "plugins"
+for script in ~/.bashrc.d/*.sh
+do
+    source "$script"
+done

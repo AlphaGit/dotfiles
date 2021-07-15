@@ -4,11 +4,12 @@
 [merge]
 	tool = vscode
 [mergetool "vscode"]
-	cmd = code --wait $MERGED
+	cmd = code --new-window --wait $MERGED
 [mergetool]
 	keepBackup = false
 [core]
 	autocrlf = false
+	editor = code --wait
 [pager]
 	diff = delta
 	log = delta
@@ -25,3 +26,7 @@
 [interactive]
 	diffFilter = delta --color-only
 
+[diff]
+	tool = default-difftool
+[difftool "default-difftool"]
+	cmd = code --wait --new-window --diff $LOCAL $REMOTE
