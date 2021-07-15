@@ -8,6 +8,6 @@ kubeconfig-switch() {
         export KUBECONFIG=~/.kube/$1.config.yaml
         echo -e "${GREEN}Success:${NC} Using Kube $1 configuration."
     else
-        echo -e "${ERROR}Error:${NC} Config file $FILE not found!"
+        echo -e "${RED}Error:${NC} Config file $FILE not found!"
     fi
 }
