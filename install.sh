@@ -1,0 +1,3 @@
+SCRIPT_LOCATION=$(readlink -f "$0")
+SCRIPT_DIR=$(dirname $SCRIPT_LOCATION)
+ln -sf $SCRIPT_DIR/* $HOME
