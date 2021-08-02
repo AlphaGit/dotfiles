@@ -18,4 +18,4 @@ do
     source "$script"
 done
 
-source .alpha_aliases
+source ~/.alpha_aliases

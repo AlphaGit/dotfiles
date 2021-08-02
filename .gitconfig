@@ -13,7 +13,7 @@
 [pager]
 	diff = delta
 	log = delta
-	reflog = delta
+	reflog = false
 	show = delta
 	branch = false
 
