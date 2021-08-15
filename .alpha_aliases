@@ -1,4 +1,5 @@
 alias python=python3
+alias pip=pip3
 
 alias asciicast2gif='docker run --rm -v $PWD:/data asciinema/asciicast2gif'
 
