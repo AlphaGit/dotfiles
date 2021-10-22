@@ -17,3 +17,7 @@ alias kcommon='kubectl -n common'
 
 # https://unix.stackexchange.com/a/25329/305924
 alias watch='watch '
+
+# python venv
+alias create_venv='python -m venv .venv'
+alias activate_venv='source .venv/bin/activate'
