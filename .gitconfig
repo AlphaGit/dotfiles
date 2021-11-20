@@ -33,3 +33,5 @@
 	cmd = code --wait --new-window --diff $LOCAL $REMOTE
 [pull]
 	rebase = true
+[init]
+	defaultBranch = main
