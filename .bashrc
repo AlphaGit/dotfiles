@@ -117,3 +117,4 @@ if ! shopt -oq posix; then
 fi
 
 source .alpharc
+complete -C /usr/local/bin/terraform terraform
