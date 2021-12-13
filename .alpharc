@@ -19,3 +19,7 @@ do
 done
 
 source ~/.alpha_aliases
+
+if [ -f ~/.alpha_profile_local ] ; then
+    source ~/.alpha_profile_local
+fi
