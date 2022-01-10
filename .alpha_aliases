@@ -10,6 +10,7 @@ alias c='xclip -selection clipboard'
 alias v='xclip -o'
 
 # kubernetes
+alias k='kubectl'
 alias kdev='kubectl -n dev'
 alias kprod='kubectl -n prod'
 alias ktest='kubectl -n test'
