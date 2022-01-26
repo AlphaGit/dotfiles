@@ -10,12 +10,13 @@ alias c='xclip -selection clipboard'
 alias v='xclip -o'
 
 # kubernetes
-alias k='kubectl'
-alias kdev='kubectl -n dev'
-alias kprod='kubectl -n prod'
-alias ktest='kubectl -n test'
-alias kcommon='kubectl -n common'
 command -v kubecolor >/dev/null 2>&1 && alias kubectl="kubecolor"
+alias switch-context='k config use-context'
+alias k='kubectl'
+alias kdev='k -n dev'
+alias kprod='k -n prod'
+alias ktest='k -n test'
+alias kcommon='k -n common'
 
 # https://unix.stackexchange.com/a/25329/305924
 alias watch='watch '
