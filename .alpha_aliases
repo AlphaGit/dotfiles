@@ -11,8 +11,8 @@ alias v='xclip -o'
 
 # kubernetes
 command -v kubecolor >/dev/null 2>&1 && alias kubectl="kubecolor"
-alias switch-context='k config use-context'
 alias k='kubectl'
+alias kswitch='k config use-context'
 alias kdev='k -n dev'
 alias kprod='k -n prod'
 alias ktest='k -n test'
