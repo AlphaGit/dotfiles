@@ -27,3 +27,7 @@ alias activate-venv='source .venv/bin/activate'
 
 # uxplay (from https://github.com/FDH2/UxPlay)
 alias uxplay='uxplay -p'
+
+# cross-env open
+alias open='~/my-open.sh'
+alias start-notebook='~/start-notebook.sh'
