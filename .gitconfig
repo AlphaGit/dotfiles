@@ -4,7 +4,7 @@
 [merge]
 	tool = vscode
 [mergetool "vscode"]
-	cmd = code --new-window --wait $MERGED
+	cmd = code --wait --merge $REMOTE $LOCAL $BASE $MERGED
 [mergetool]
 	keepBackup = false
 [core]
@@ -28,7 +28,7 @@
 	diffFilter = delta --color-only
 
 [diff]
-	tool = default-difftool
+	tool = vscode
 [difftool "default-difftool"]
 	cmd = code --wait --new-window --diff $LOCAL $REMOTE
 [pull]
@@ -37,3 +37,15 @@
 	defaultBranch = main
 [fetch]
 	prune = true
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[merge "tool.vscode"]
+	cmd = code --wait --merge $REMOTE $LOCAL $BASE $MERGED
+[diff "tool.vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+[advice]
+	skippedCherryPicks = false

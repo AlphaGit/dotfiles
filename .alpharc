@@ -9,6 +9,7 @@ export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 export PATH=$PATH:$HOME/.local/bin
+export PATH="/usr/local/opt/openjdk@11/bin:$PATH"
 
 # Kubectl: Use VSCode as editor
 export KUBE_EDITOR='code --wait'
@@ -24,3 +25,7 @@ source ~/.alpha_aliases
 if [ -f ~/.alpha_profile_local ] ; then
     source ~/.alpha_profile_local
 fi
+
+export FORGIT_FZF_DEFAULT_OPTS="$FORGIT_FZF_DEFAULT_OPTS
+--preview-window='right:70%'
+"
