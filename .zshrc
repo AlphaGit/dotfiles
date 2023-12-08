@@ -123,7 +123,6 @@ eval "$(pyenv init --path)"
 source ~/.alpharc
 
 autoload -U +X bashcompinit && bashcompinit
-complete -o nospace -C /usr/local/bin/terraform terraform
 
 source ~/tools/forgit/forgit.plugin.zsh
 
@@ -139,3 +138,5 @@ _sgpt_zsh() {
 zle -N _sgpt_zsh
 bindkey ^l _sgpt_zsh
 # Shell-GPT integration ZSH v0.1
+
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
