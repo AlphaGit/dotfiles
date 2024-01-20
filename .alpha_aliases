@@ -31,3 +31,6 @@ alias uxplay='uxplay -p'
 # cross-env open
 alias open='~/my-open.sh'
 alias start-notebook='~/start-notebook.sh'
+
+alias hist='history | fzf --prompt="hist> "'
+alias t='tspin'

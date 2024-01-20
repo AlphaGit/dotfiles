@@ -10,6 +10,7 @@
 [core]
 	autocrlf = false
 	editor = code --wait
+	excludesfile = .gitignore_global
 [pager]
 	diff = delta
 	log = delta
