@@ -113,7 +113,8 @@ source $ZSH/oh-my-zsh.sh
 
 eval "$(pyenv init --path)"
 source ~/.alpharc
-source ~/tools/forgit/forgit.plugin.zsh
+
+[ -f $HOMEBREW_PREFIX/share/forgit/forgit.plugin.zsh ] && source $HOMEBREW_PREFIX/share/forgit/forgit.plugin.zsh
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 # Shell-GPT integration ZSH v0.1
