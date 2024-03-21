@@ -1,2 +1,2 @@
 TZ=America/Toronto
-2 * * * * download-icloud-folder ~/Library/Mobile\ Documents/iCloud~md~obsidian
+2 * * * * ~/functions/download-icloud-folder.sh ~/Library/Mobile\ Documents/iCloud~md~obsidian
