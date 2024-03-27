@@ -12,7 +12,12 @@ download_icloud_folder() {
     find "$folder" -type f -exec brctl download "{}" \;
 }
 
-# Check if the script was invoked directly
-if [ "${BASH_SOURCE[0]}" == "${0}" ]; then
+# Check if the script was invoked directly: ZSH
+if [ -n "$ZSH_EVAL_CONTEXT" ] && [ "${ZSH_EVAL_CONTEXT}" = "toplevel" ]; then
+    download_icloud_folder "$@"
+fi
+
+# Check if the script was invoked directly: BASH
+if [ -n "$BASH_SOURCE" ] && [ "${BASH_SOURCE[0]}" == "${0}" ]; then
     download_icloud_folder "$@"
 fi
