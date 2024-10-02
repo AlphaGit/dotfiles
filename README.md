@@ -8,6 +8,7 @@ Installing:
     - pyenv
     - zsh-autosuggestions
     - forgit
+    - git-delta
 - clone this repo
 - cd (this repo)
 - ./install.sh
