@@ -10,5 +10,5 @@ if ! command -v brew >/dev/null 2>&1; then
   fi
 fi
 
-brew bundle install --file="$HOME/Brewfile"
+brew bundle install --no-upgrade --file="$HOME/Brewfile" || true
 {{- end }}
