@@ -1,0 +1,8 @@
+Host github.com
+  AddKeysToAgent yes
+  UseKeyChain yes
+  IdentityFile ~/.ssh/alphagit_github
+
+Host jellyfin.alphasmanifesto.com
+  User ubuntu
+  IdentityFile '/Users/alpha/Library/Mobile Documents/com~apple~CloudDocs/AlphaBox/SSH Keys/alpha-aws-jellyfin.pem'

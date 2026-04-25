@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "plugins": {
+    "skill-creator@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/alpha/.claude/plugins/cache/claude-plugins-official/skill-creator/unknown",
+        "version": "unknown",
+        "installedAt": "2026-03-01T03:03:32.197Z",
+        "lastUpdated": "2026-04-03T01:15:34.804Z",
+        "gitCommitSha": "55b58ec6e5649104f926ba7558b567dc8d33c5ff"
+      }
+    ],
+    "commit-commands@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/alpha/.claude/plugins/cache/claude-plugins-official/commit-commands/unknown",
+        "version": "unknown",
+        "installedAt": "2026-03-01T03:04:06.000Z",
+        "lastUpdated": "2026-04-03T01:15:34.788Z",
+        "gitCommitSha": "55b58ec6e5649104f926ba7558b567dc8d33c5ff"
+      }
+    ],
+    "rust-analyzer-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/alpha/.claude/plugins/cache/claude-plugins-official/rust-analyzer-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-03-01T03:04:43.124Z",
+        "lastUpdated": "2026-03-01T03:04:43.124Z",
+        "gitCommitSha": "55b58ec6e5649104f926ba7558b567dc8d33c5ff"
+      }
+    ],
+    "swift-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/alpha/.claude/plugins/cache/claude-plugins-official/swift-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-03-08T14:52:29.451Z",
+        "lastUpdated": "2026-03-08T14:52:29.451Z",
+        "gitCommitSha": "205b6e0b30366a969412d9aab7b99bea99d58db1"
+      }
+    ],
+    "frontend-design@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/alpha/.claude/plugins/cache/claude-plugins-official/frontend-design/unknown",
+        "version": "unknown",
+        "installedAt": "2026-04-04T18:51:10.578Z",
+        "lastUpdated": "2026-04-04T18:51:10.578Z"
+      }
+    ],
+    "warp@claude-code-warp": [
+      {
+        "scope": "user",
+        "installPath": "/Users/alpha/.claude/plugins/cache/claude-code-warp/warp/2.0.0",
+        "version": "2.0.0",
+        "installedAt": "2026-04-11T03:18:40.858Z",
+        "lastUpdated": "2026-04-11T03:18:40.858Z",
+        "gitCommitSha": "c2fa0dde50076570c7db5e72d8663558a96a6502"
+      }
+    ],
+    "caveman@caveman": [
+      {
+        "scope": "user",
+        "installPath": "/Users/alpha/.claude/plugins/cache/caveman/caveman/c2ed24b3e5d4",
+        "version": "c2ed24b3e5d4",
+        "installedAt": "2026-04-15T17:38:36.923Z",
+        "lastUpdated": "2026-04-15T17:38:36.923Z",
+        "gitCommitSha": "c2ed24b3e5d412cd0c25197b2bc9af587621fd99"
+      }
+    ]
+  }
+}

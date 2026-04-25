@@ -1,0 +1,36 @@
+alias python=python3
+alias pip=pip3
+
+alias asciicast2gif='docker run --rm -v $PWD:/data asciinema/asciicast2gif'
+
+alias mostrecent='find $1 -type f -print0 | xargs -0 stat --format "%Y:%n" | sort -nr | cut -d: -f2- | head -n 1'
+
+# clipboard
+alias c='xclip -selection clipboard'
+alias v='xclip -o'
+
+# kubernetes
+command -v kubecolor >/dev/null 2>&1 && alias kubectl="kubecolor"
+alias k='kubectl'
+alias kswitch='k config use-context'
+alias kdev='k -n dev'
+alias kprod='k -n prod'
+alias ktest='k -n test'
+alias kcommon='k -n common'
+
+# https://unix.stackexchange.com/a/25329/305924
+alias watch='watch '
+
+# python venv
+alias create-venv='python -m venv .venv'
+alias activate-venv='source .venv/bin/activate'
+
+# uxplay (from https://github.com/FDH2/UxPlay)
+alias uxplay='uxplay -p'
+
+# cross-env open
+alias open='~/my-open.sh'
+alias start-notebook='~/start-notebook.sh'
+
+alias hist='history | fzf --prompt="hist> "'
+alias t='tspin'

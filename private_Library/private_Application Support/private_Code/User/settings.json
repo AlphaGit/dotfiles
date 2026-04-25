@@ -1,0 +1,124 @@
+{
+  "editor.fontFamily": "'Monaspace Xenon', 'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
+  "editor.fontSize": 16,
+  "editor.renderWhitespace": "all",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "java.project.importHint": false,
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.classpath": true,
+    "**/.factorypath": true,
+    "**/.idea": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.venv": true,
+    "**/.vscode": true
+  },
+  "workbench.startupEditor": "none",
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "git.mergeEditor": true,
+  "githubPullRequests.defaultMergeMethod": "squash",
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "diffEditor.ignoreTrimWhitespace": false
+  },
+  "git.openRepositoryInParentFolders": "always",
+  "explorer.autoRevealExclude": {
+    "**/bower_components": false,
+    "**/node_modules": false
+  },
+  "search.exclude": {
+    "**/*.code-search": false,
+    "**/bower_components": false
+  },
+  "diffEditor.diffAlgorithm": "advanced",
+  "notebook.output.textLineLimit": 20,
+  "javascript.format.enable": false,
+  "eslint.format.enable": true,
+  "typescript.format.enable": false,
+  "notebook.formatOnSave.enabled": true,
+  "notebook.output.scrolling": true,
+  "githubPullRequests.pullBranch": "never",
+  "terminal.integrated.enableMultiLinePasteWarning": "auto",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "terminal.integrated.fontSize": 14,
+  "editor.formatOnSave": true,
+  "jupyter.askForKernelRestart": false,
+  "explorer.confirmDelete": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "workbench.colorTheme": "Light Modern",
+  "eslint.codeActionsOnSave.mode": "all",
+  "black-formatter.importStrategy": "fromEnvironment",
+  "window.autoDetectColorScheme": true,
+  "salt.errorLogging": true,
+  "salt.publicOnly": true,
+  "rust-analyzer.testExplorer": true,
+  "rust-analyzer.debug.openDebugPane": true,
+  "rust-analyzer.diagnostics.styleLints.enable": true,
+  "rust-analyzer.semanticHighlighting.operator.specialization.enable": true,
+  "rust-analyzer.semanticHighlighting.punctuation.enable": true,
+  "security.promptForLocalFileProtocolHandling": false,
+  "githubPullRequests.createOnPublishBranch": "never",
+  "diffEditor.maxComputationTime": 10000,
+  "python.analysis.typeCheckingMode": "standard",
+  "roo-cline.allowedCommands": [
+    "npm test",
+    "npm install",
+    "tsc",
+    "git log",
+    "git diff",
+    "git show"
+  ],
+  "vim.smartRelativeLine": true,
+  "[csv]": {
+    "editor.inlayHints.maximumLength": 0
+  },
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "git.blame.editorDecoration.enabled": false,
+  "docker.extension.dockerEngineAvailabilityPrompt": false,
+  "editor.lineNumbers": "off",
+  "editor.minimap.enabled": false,
+  "terminal.integrated.defaultProfile.osx": "bash",
+  "diffEditor.renderSideBySide": false,
+  "chat.agent.maxRequests": 100,
+  "chat.tools.terminal.autoApprove": {
+    "npm run dev": true,
+    "/^docker-compose up$/": {
+      "approve": true,
+      "matchCommandLine": true
+    },
+    "/^docker compose up$/": {
+      "approve": true,
+      "matchCommandLine": true
+    }
+  },
+  "update.showReleaseNotes": false,
+  "claudeCode.preferredLocation": "panel",
+  "settingsSync.ignoredSettings": [
+    "vim.useCtrlKeys"
+  ],
+  "vim.easymotion": true,
+  "vim.handleKeys": {
+    "<D-k>": false,
+    "<D-S-v>": false
+  },
+  "workbench.preferredLightColorTheme": "Dark 2026",
+}

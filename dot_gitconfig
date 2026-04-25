@@ -1,0 +1,52 @@
+[user]
+	email = alphagma@gmail.com
+	name = Alpha
+[merge]
+	tool = vscode
+[mergetool "vscode"]
+	cmd = code --wait --merge $REMOTE $LOCAL $BASE $MERGED
+[mergetool]
+	keepBackup = false
+[core]
+	autocrlf = false
+	editor = code --wait
+	excludesfile = .gitignore_global
+[pager]
+	diff = delta
+	log = delta
+	reflog = false
+	show = delta
+	branch = false
+
+[delta]
+	plus-style = "syntax #012800"
+	minus-style = "syntax #340001"
+	syntax-theme = Monokai Extended
+	line-numbers = true
+	navigate = true
+
+[interactive]
+	diffFilter = delta --color-only
+
+[diff]
+	tool = vscode
+[difftool "default-difftool"]
+	cmd = code --wait --new-window --diff $LOCAL $REMOTE
+[pull]
+	rebase = true
+[init]
+	defaultBranch = main
+[fetch]
+	prune = true
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[merge "tool.vscode"]
+	cmd = code --wait --merge $REMOTE $LOCAL $BASE $MERGED
+[diff "tool.vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+[advice]
+	skippedCherryPicks = false
